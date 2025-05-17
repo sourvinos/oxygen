@@ -1,0 +1,58 @@
+{
+    "issuer": {
+        "vat_number": "997346439",
+        "branch_code": "0"
+    },
+    "counterpart": {
+        "name": "AKVILA TRAVEL",
+        "vat_number": "153514937",
+        "branch_code": "0",
+        "country_code": "GR",
+        "address": {
+            "street": "invoice.Customer.Street",
+            "number": "0",
+            "postal_code": "49080",
+            "city": "invoice.Customer.City"
+        }
+    },
+    "header": {
+        "series": "0",
+        "number": 21,
+        "issued_at": "2025-05-12T02:00:39Z",
+        "invoice_type": "2.1"
+    },
+    "payment_methods": [
+        {
+            "type": 5,
+            "amount": 10.2
+        }
+    ],
+    "lines": [
+        {
+            "description": "Description",
+            "quantity": 1,
+            "unit_price": 100.0,
+            "net_amount": 100.0,
+            "vat_category": 1,
+            "vat_amount": 24.0,
+            "total_amount": 124.0,
+            "vat_exemption_reason_code": ""
+        }
+    ],
+    "summary": {
+        "total_net_amount": 100.0,
+        "total_vat_amount": 24.0,
+        "total_gross_amount": 124.0,
+        "classifications": [
+            {
+                "category": "string",
+                "type": "string",
+                "amount": 0.1
+            }
+        ]
+    },
+    "options": {
+        "is_peppol": false,
+        "ignore_classifications": true
+    }
+}
